@@ -22,3 +22,14 @@ npx prisma db push
 
 ## How to install shadcn components:
 npx shadcn-ui@latest add button
+
+## How to use for new project
+- clone
+- delete .git file
+- rm -rf .git*
+- git init
+- git remote add origin <new repo>
+- git branch -M main
+- git add .
+- git commit -m "Initial commit"
+- git push origin main
